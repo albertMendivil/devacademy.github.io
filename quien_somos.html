@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - Prebuilt Layout</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	  <link href="css/acerca_de.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color:# ">
+       <a class="navbar-brand" href=""><img src="../imagen/dev.png" width="150" alt=""/></a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav-item active">
+                <a class="nav-link" href="inicio.html" style="color:black">Inicio <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="#" >¿Quién somos?</a>
+             </li>
+			 
+			  <div class="noticias">
+			  <li class="nav-item">
+                <a class="nav-link" href="#" >Noticias</a>
+             </li>
+				 </div>
+			<li class="nav-item dropdown" >
+				<a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+					Unidades
+				</a>
+
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">Unidad 1</a>
+					<a class="dropdown-item" href="#">Unidad 2</a>
+				</div>
+			</li>
+			  <li class="nav-item">
+                <a class="nav-link" href="#" >Galeria</a>
+             </li>
+	         <li class="nav-item">
+                <a class="nav-link" href="contacto.html" >Contacto</a>
+             </li>
+          </ul>
+		   
+          <form class="form-inline my-2 my-lg-0">
+			  <div class="formulario">
+			   <input class="form-control mr-sm-2" type="email" placeholder="Correo" aria-label="email">
+             <input class="form-control mr-sm-2" type="password" placeholder="Contraseña" aria-label="Password">
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Iniciar</button>
+		<li class="nav-item d-flex">
+            <a class="nav-link mr-2" href="#">Recuperar contraseña</a>
+            <a class="nav-link" href="#">Registrarse</a>
+        </li>
+			  </div>
+          </form>
+		   
+       </div>
+  </nav>
+
+    <div>
+        <!--Panel-->
+
+        <!--Modulo de curriculo-->
+		<div class = "container">
+        <div>
+          <section class = "ramon"> 
+            <h3>Ramon Alberto Mendivil</h3>
+            <div>
+              <img src="../Imagen/ramon.jpg" width ="150px" alt="Ramon Alberto">
+              <p>Mi nombre es Ramon Alberto Mendivil y soy un profesional experimentado en desarrollo web, especializado en JavaScript y Django. Actualmente, trabajo como ingeniero Frontend en Dev Academy. Como individuo, me identifico con los valores fundamentales de la filosofía Estoica.</p>
+            </div>
+          </section>
+
+          <section class = "ricardo">
+            <h3>Ricardo Mendoza</h3>
+            <div>
+              <img src="../Imagen/ricardo.png" width="150px" alt="Ricardo Mendoza">
+              <p>Mi nombre es Ricardo Mendoza soy un profesional con dedicación y motivación en el desarrollo web, con una ardua carrera en el desarrollo fronted. En la actualizada trabajo como desarrollador fronted para la empresa Dev Academy. Busco adquirir conocimientos y habilidades con la posibilidad de crecimiento profesional. Como persona me indentifico como una persona que susco adquirir conocimientos y habilidades con la posibilidad de crecimiento profesional.</p>
+            </div>
+          </section>
+        </div>
+        <!--Modulo de facebook-->
+		 <div class="col-md-6 col-lg-12 offset-xl-0 col-xl-4"><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTecNMLosCabos%3Fmibextid%3DZbWKwL%20&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>
+		</div>
+        <!--Contactos-->
+
+    </div>
+  
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+		<footer>
+					 <div>
+				<img src="images/dev2.png" width="150" alt="Logo de la empresa">
+				<ul>
+					<li><a href="#">¿Quiénes somos?</a></li>
+					<li><a href="#">Email</a></li>
+					<li><a href="#">Términos y condiciones</a></li>
+					<li><a href="#">Política de privacidad</a></li>
+				</ul>
+			</div>
+		  <div>
+				<p>&copy; 2023 Company, Inc. All rights reserved.</p>
+				<ul>
+					<li><a href="#"><svg width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+					<li><a href="#"><svg width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+					<li><a href="#"><svg width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+				</ul>
+			</div>
+			<div>
+				<p>Facebook</p>
+				<p>Devacademy_Os@gmail.com</p>
+				<p>Mexico</p>
+				<br>
+				<p>Ramon Alberto Mendivil Pompa</p>
+			</div>
+	</footer>
+</html>

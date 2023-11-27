@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Estilo de header*/
+.Cab {
+    display: flex;
+    align-items: center;
+	margin: 1%
+}
+
+.Botones {
+	
+    background-color: #2785C4;
+	border-radius: 60px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center; 
+
+    width: 100%;
+}
+
+.Botones .boton {
+    margin-left: 10px;
+    background-color: #2785C4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; 
+
+}
+
+.boton:hover {
+    background-color: #5EABDE;
+	border-radius: 20px;
+}
+
+
+.inicio_sesion .form {
+	font-family: arial;
+	font-size: 16px;
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+}
+
+.inicio_sesion .form .cuestion {
+    margin-left: 20px;
+}
+.inicio_sesion{
+	padding: 10px;
+	min-height: 90px;
+}
+.ingresar{
+	min-height: 80px;
+	align-content: flex-start;
+}
+.ingresar .iboton{
+	border-radius: 20px;
+	margin-left: 10px;
+    background-color: #2785C4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; 
+}
+.iboton:hover{
+	border-radius: 20px;
+	margin-left: 10px;
+    background-color: #5EABDE;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; 
+}
+.inicio_sesion .form .contra{
+	margin-left: 5%;
+}
+
+/*---------------------------------------------------------------------*/
+
+.ramon{
+	max-width: 1000px;
+    margin-left: 100px;
+    justify-content: center; 
+    align-items: center;
+	
+}
+.ricardo{
+	max-width: 1000px;
+    margin-left: 100px;
+    justify-content: center; 
+    align-items: center;
+}
+
+.contenido{
+	display: flex;
+}
+/*---------------------------------------------------------------------*/
+
+/*estilo de footer*/
+footer {
+    background-color: #2785C4; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+
+footer a {
+    color: #fff; 
+    text-decoration: none; 
+    margin: 0 10px; 
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+footer p {
+    margin: 0; 
+}
+
+
+footer > div {
+    margin: 20px; 
+}
+
+
+footer svg {
+    fill: #fff; 
+    width: 24px;
+    height: 24px;
+    margin: 0 10px; 
+}
+@media (max-width: 1024px) {
+    .inicio_sesion {
+        display: none;
+		padding-top:50px;
+    }
+}

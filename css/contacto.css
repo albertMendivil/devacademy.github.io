@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Cab {
+    display: flex;
+    align-items: center;
+}
+
+.Botones {
+	
+    background-color: #2785C4;
+	border-radius: 60px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center; 
+    width: 100%;
+}
+
+.Botones .boton {
+    margin-left: 10px;
+    background-color: #2785C4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Ocupa todo el ancho horizontal dentro de .Botones */
+
+}
+
+.boton:hover {
+    background-color: #5EABDE;
+	border-radius: 20px;
+}
+
+
+.inicio_sesion .form {
+	font-family: arial;
+	font-size: 16px;
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+}
+
+.inicio_sesion .form .cuestion {
+    margin-left: 20px;
+}
+.inicio_sesion{
+	padding: 10px;
+	min-height: 90px;
+}
+.ingresar{
+	min-height: 80px;
+	align-content: flex-start;
+}
+.ingresar .iboton{
+	border-radius: 20px;
+	margin-left: 10px;
+    background-color: #2785C4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; 
+}
+.iboton:hover{
+	border-radius: 20px;
+	margin-left: 10px;
+    background-color: #5EABDE;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; 
+}
+.inicio_sesion .form .contra{
+	margin-left: 5%;
+}
+/*-----------------------------------------------------------*/
+.ramon{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.ricardo{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.nombre{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-family: arial;
+}
+.contacto{
+	display: flex;
+	align-items: center;
+	
+	
+}
+.contacto ul{
+	list-style: none;
+	font-family: arial;
+}
+.contacto ul li {
+    display: flex; 
+    align-items: center; 
+    margin: 5px 0; 
+}
+.contacto ul li img {
+    margin-right: 10px; 
+}
+.titulo{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-family: arial;
+}
+.datos{
+	display: flex;
+	align-items: center;
+	font-family: arial;
+	justify-content: center;
+}
+.datos label{
+	margin-left: 10px;
+	margin-right: 5px;
+}
+.mensaje{
+	margin-top: 20px;
+	display: flex;
+	font-family: arial;
+	justify-content: center;
+}
+.mensaje {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.mensaje label {
+    align-self: flex-start;
+    margin-bottom: 5px; 
+}
+
+.mensaje textarea {
+    width: 100%; 
+}
+.mapa {
+margin-left: auto;
+}
+.mensaje .enviar{
+	border-radius: 20px;
+	margin-left: 10px;
+    background-color: #2785C4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+	margin-bottom: 10px;
+}
+.mensaje .enviar:hover{
+	border-radius: 20px;
+	margin-left: 10px;
+    background-color: #5EABDE;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+	margin-bottom: 10px;
+}
+
+
+/*-----------------------------------------------------------*/
+/*estilo de footer*/
+footer {
+    background-color: #2785C4; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+
+footer a {
+    color: #fff; 
+    text-decoration: none; 
+    margin: 0 10px; 
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+footer p {
+    margin: 0; 
+}
+
+
+footer > div {
+    margin: 20px; 
+}
+
+
+footer svg {
+    fill: #fff; 
+    width: 24px;
+    height: 24px;
+    margin: 0 10px; 
+}
+@media (max-width: 1024px) {
+    .inicio_sesion {
+        display: none;
+		padding-top:50px;
+    }
+}
